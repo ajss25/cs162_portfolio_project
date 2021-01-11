@@ -1,9 +1,8 @@
 # Xiangqi
 
-This program is an implementation of Xiangqi, also known as Chinese chess, which is a two player strategy board game.  
-The player can create an instance of the game, make moves, and determine the winner in the terminal.  
-Example:   
+This program is an object-oriented implementation of Xiangqi, also known as Chinese chess, which is a two player strategy board game. The player can create an instance of the game, make moves, and determine the winner in the terminal.
 
+Example:   
 `game = XiangqiGame()`  
 `move_result = game.make_move('c1', 'e3')`  
 `black_in_check = game.is_in_check('black')`  
